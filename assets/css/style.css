@@ -1,0 +1,171 @@
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .nav-top .navbar .navbar-nav .nav-item .nav-link{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .navigasi .navbar .navbar-nav .card{
+            background: #F0F0F0;
+            border-radius: 10px;
+            border: none;
+        }
+        .navigasi .navbar .navbar-nav .card form input{
+            background:none;
+            border:none;
+            box-shadow: none;
+        }
+        .navigasi .navbar .navbar-nav .card form .btn{
+            text-decoration: none;
+            color: #8B8B8B;
+        }
+        .navigasi .navbar{
+            border-top:1px solid #C4C4C4;
+            border-bottom:1px solid #C4C4C4;
+        }
+        @media(max-width: 900px){
+            .nav-bottom .navbar .navbar-nav .nav-item .nav-link, a{
+                font-size: 10px;
+            }
+        }
+
+
+        /*@media(max-width: 500px){*/
+        /*    .hero .jumbotron .carousel .carousel-control-prev{*/
+        /*        top: 0px;*/
+        /*        left: 0px;*/
+        /*    }*/
+        /*    .hero .jumbotron .carousel .carousel-control-next{*/
+        /*        top: 0px;*/
+        /*        left: 0px;*/
+        /*    }*/
+        /*}*/
+        .hero .jumbotron .carousel .carousel-control-prev{
+            position:relative;
+            top: -60px;
+            left: 480px;
+        }
+        .hero .jumbotron .carousel .carousel-control-next{
+            position:relative;
+            top: -86px;
+            left: 520px;
+        }
+        /*@media(max-width:520px){*/
+        /*    .hero .jumbotron .carousel .carousel-control-prev{*/
+        /*        position:relative;*/
+        /*        top: -60px;*/
+        /*        left: 400px;*/
+        /*    }*/
+        /*    .hero .jumbotron .carousel .carousel-control-next{*/
+        /*        position:relative;*/
+        /*        top: -80px;*/
+        /*        left: 420px;*/
+        /*    }  */
+        /*}*/
+        .category .card:hover{
+            background: #D4DFE4;
+            border: none;
+            /*border-radius: 10px;*/
+        }
+        .category .header h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .category .header .text{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        
+        .limited .jumbotron .header h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .limited .jumbotron .header .badge{
+            font-size: 12px;
+        }
+        .limited .jumbotron .card .card-body h4{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .limited .jumbotron .card .card-body .diskon{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .limited .jumbotron .card .card-body .star{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .limited .jumbotron .card{
+            background: #D4DFE4;
+            border-radius: 10px;
+            border:none;
+        }
+        .limited .jumbotron .card img{
+            border-radius: 10px 10px 0px 0px;
+        }
+        
+        .sellers .header h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .sellers .card{
+            background: #D4DFE4;
+            border-radius: 10px;
+            border:none;
+        }
+        .sellers .card .card-body h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .sellers .card .card-body p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .sellers .card .card-body .text-price{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 15px;
+        }
+
+        .choose .header h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .choose .card{
+            border:none;
+        }
+        .choose .card .card-body .title{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .choose .card .card-body p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+        }

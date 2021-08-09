@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gudang Parfum Impor</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="/assets/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/owlcarousel/owl.theme.default.css">
+    <script src="/assets/owlcarousel/owl.carousel.js"></script>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/7b36f2302d.js" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <section class="nav-top">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+          <!--<a class="navbar-brand" href="#">Navbar</a>-->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span><i class="fas fa-phone-alt"></i></span> +62 853-3509-8805</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span><i class="far fa-clock"></i></span>  Senin - Jum’at (10:00 - 20:00), Sabtu - Minggu (10:00 - 18:00), Hari Besar tetap buka</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span><i class="far fa-envelope"></i></span>  info@gpi.com</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </section>
+
+    <section class="navigasi sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background:white;">
+          <a class="navbar-brand" href="/">
+              <img class="img-fluid d-sm-none d-md-block d-lg-block d-none" src="/assets/images/logo/logo-gpi.png">
+              <img class="img-fluid d-sm-block d-md-none d-lg-none d-block" src="/assets/images/logo/logo_gpi-s.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <div class="card p-1">
+                    <div class="row">
+                        <div class="dropdown ml-4 mr-2">
+                         <a class="btn text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ALL CATEGORIES <span><i class="fas fa-chevron-down"></i></span>
+                          </a>
+                        
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Parfum For Men</a>
+                            <a class="dropdown-item" href="#">Parfum For Women</a>
+                            <a class="dropdown-item" href="#">Parfum For Unisex</a>
+                          </div>
+                        </div>
+                        <div class="border"></div>
+                        <form class="form-inline my-2 my-lg-0 ml-3 mr-sm-4">
+                          <input class="form-control" style="width:380px;" type="search" placeholder="Searching for everything...." aria-label="Search">
+                          <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                          <button type="submit" class="btn btn-link fas fa-search"></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row ml-2">
+                    <p class="my-auto"><i class="fas fa-map-marker-alt"></i> Purwokerto</p>
+                </div>
+                <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+                <script>
+                var x = document.getElementById("demo");
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                  } else { 
+                    x.innerHTML = "Geolocation is not supported by this browser.";
+                  }
+                function getLocation() {
+                  
+                }
+                
+                function showPosition(position) {
+                //   x.innerHTML = "Latitude: " + position.coords.latitude + 
+                //   "<br>Longitude: " + position.coords.longitude;
+                  
+                  x.innerHTML = '<a style="color:black;" href="http://maps.googleapis.com/maps/api/geocode/json?latlng='+position.coords.latitude+','+position.coords.longitude+'&sensor=tru">P</a>';
+                }
+                </script>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart" style="font-size:20px;"></i> <span class="badge badge-secondary" style="position:relative;top: -15px;left: -15px;background: #C4C4C4;color:black;">4</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="far fa-heart" style="font-size:20px;"></i> <span class="badge badge-secondary" style="position:relative;top: -15px;left: -15px;background: #C4C4C4;color:black;">4</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/authentication/login"><i class="far fa-user" style="font-size:20px;"></i> <span>Login / Register</span></a>
+                </li>
+            </ul>
+            
+          </div>
+        </nav>
+    </section>
+
+    <section class="nav-bottom">
+        <nav class="navbar navbar-expand navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavb" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavb">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <div class="nav-link dropdown">
+                  <a class="btn btn-secondary" style="background: #C4C4C4;border-radius: 10px;border:none;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-bars"></i> <span class="d-sm-none d-md-inline-flex d-lg-inline-flex d-none">SHOP BY CATEGORY</span>
+                  </a>
+                
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="<?= base_url(); ?>category">For Men</a>
+                    <a class="dropdown-item" href="#">For Women</a>
+                    <a class="dropdown-item" href="#">For Unisex</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown my-auto">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-tags"></i> <span class="d-sm-none d-md-inline-flex d-lg-inline-flex d-none">Special Prices</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              
+            </ul>
+            <ul class="navbar-nav ml-lg-5">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Parfum For Men
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="<?= base_url(); ?>brand">Bvlgari</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ml-lg-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Parfum For Women
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ml-lg-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Parfum For Unisex
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ml-lg-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Accessories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+          </div>
+        </nav>
+    </section>
+    <!-- END NAVBAR -->
+
+    <section class="hero">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mt-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/assets/images/home/carousel.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/assets/images/home/carousel.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/assets/images/home/carousel.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                        <a class="carousel-control-prev d-sm-none d-md-none d-lg-block d-none" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next d-sm-none d-md-none d-lg-block d-none" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <a href="">
+                        <img class="img-fluid" src="/assets/images/home/carousel-r.png">
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section class="category pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="header">
+                    <h4 class="text-left">Browse By Category <span class="text"><a href="" style="color:black;">All Categories <i class="fas fa-chevron-right"></i></a></span></h4>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                            <div class="row">
+                                <a class="mx-auto text-center mt-3" style="color: black; text-decoration:none;" href="">Parfum For Men</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                            <div class="row">
+                                <a class="mx-auto text-center mt-3" style="color: black; text-decoration:none;" href="">Parfum For Men</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                            <div class="row">
+                                <a class="mx-auto text-center mt-3" style="color: black; text-decoration:none;" href="">Parfum For Men</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                            <div class="row">
+                                <a class="mx-auto text-center mt-3" style="color: black; text-decoration:none;" href="">Parfum For Men</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="limited pt-5">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col">
+                        <h4>
+                            Limited Deal
+                            <span class="badge badge-secondary">09</span>
+                            <span class="badge badge-secondary">30</span>
+                            <span class="badge badge-secondary">55</span>
+                            <span><a class="float-right" href="" style="color:black;font-size: 12px;">See More <i class="fas fa-chevron-right"></i></a></span>
+                        </h4>
+                        <div class="d-flex float-right">
+                            <div class="mr-4">
+                                <div class="badge badge-secondary p-2 mx-auto my-auto text-center"><i class="fas fa-chevron-left btn-prev-limited owl-prev text-center" style="cursor: pointer;"></i></div>
+                            </div>
+                            <div class="badge badge-secondary p-2 mx-auto my-auto text-center"><i class="fas fa-chevron-right btn-next-limited owl-next text-center" style="cursor: pointer;"></i></div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="carousel-limited owl-carousel owl-theme owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transition:0.5s;">
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section class="limited pt-5">
+        <div class="jumbotron jumbotron-fluid" style="background:none;">
+          <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col">
+                        <h4>
+                            What's New
+                            <span><a class="float-right" href="" style="color:black;font-size: 12px;">See More <i class="fas fa-chevron-right"></i></a></span>
+                        </h4>
+                        <div class="d-flex float-right">
+                            <div class="mr-4">
+                                <div class="badge badge-secondary p-2 mx-auto my-auto text-center"><i class="fas fa-chevron-left btn-prev-new owl-prev text-center" style="cursor: pointer;"></i></div>
+                            </div>
+                            <div class="badge badge-secondary p-2 mx-auto my-auto text-center"><i class="fas fa-chevron-right btn-next-new owl-next text-center" style="cursor: pointer;"></i></div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="carousel-new owl-carousel owl-theme owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transition:0.5s;">
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section class="sellers">
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col">
+                        <h4>
+                            Best Sellers
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="tags pt-3">
+                        <a href="#"><span class="badge badge-secondary">#parfumformen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumforwomen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumformen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumforwomen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumformen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumforwomen</span></a>
+                    </div>
+                    <div class="logo-brand pt-1">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                    </div>
+                    <div class="hero-img pt-2">
+                        <a class="" href="">
+                            <img class="img-fluid" style="width:100%;" src="/assets/images/home/best.png">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sellers pt-5">
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col">
+                        <h4>
+                            New Arrivals
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="tags pt-3">
+                        <a href="#"><span class="badge badge-secondary">#parfumformen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumforwomen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumformen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumforwomen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumformen</span></a>
+                        <a href="#"><span class="badge badge-secondary">#parfumforwomen</span></a>
+                    </div>
+                    <div class="logo-brand pt-1">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                        <img class="img-fluid" src="/assets/images/logo/logo_gpi-s.png">
+                    </div>
+                    <div class="hero-img pt-2">
+                        <a class="" href="">
+                            <img class="img-fluid" style="width:100%;" src="/assets/images/home/best.png">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4 pt-3">
+                            <a href="" style="color:black;text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body mx-auto text-center">
+                                        <img class="img-fluid" src="/assets/images/home/parfum.png" style="filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));">
+                                        <h4>Parfum Dior</h4>
+                                        <p class="text-center">Mulai <br><span class="text-price">Rp 100.000</span></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="limited pt-5">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col">
+                        <h4>
+                            Coming Soon
+                            <span><a class="float-right" href="" style="color:black;font-size: 12px;">See More <i class="fas fa-chevron-right"></i></a></span>
+                        </h4>
+                        <div class="d-flex float-right">
+                            <div class="mr-4">
+                                <div class="badge badge-secondary p-2 mx-auto my-auto text-center"><i class="fas fa-chevron-left btn-prev-soon owl-prev text-center" style="cursor: pointer;"></i></div>
+                            </div>
+                            <div class="badge badge-secondary p-2 mx-auto my-auto text-center"><i class="fas fa-chevron-right btn-next-soon owl-next text-center" style="cursor: pointer;"></i></div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="carousel-soon owl-carousel owl-theme owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transition:0.5s;">
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="owl-item col-lg-3 col-md-6 col-sm pt-5">
+                                <div class="item">
+                                    <a href="#" style="color:black;text-decoration:none;">
+                                        <div class="card" style="height:410px;">
+                                            <img class="card-img-top img-fluid" style="height:220px;" src="/assets/images/home/produk1.png">
+                                            <div class="card-body">
+                                                <h4 href="#" >Nautica Voyage Men EDT 100 ml</h4>
+                                                <p><span class="diskon" style="text-decoration-line: line-through;">Rp 390.000</span> Rp 240.000</p>
+                                                <p class="star float-right mt-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="choose pt-5">
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col">
+                        <h4>
+                            Why Choose Us ?
+                        </h4>
+                        <p class="text-justify">Untuk meningkatkan mutu dan pelayanan kami, kami menjamin kualitas toko kami melalui 5 point berikut :</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/home/best-price.png">
+                            <h4 class="title mt-3">Harga Termurah</h4>
+                            <p class="text-center">Kami adalah distributor dengan harga termurah</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/home/best-produk.png">
+                            <h4 class="title mt-3">Produk Terjamin</h4>
+                            <p class="text-center">Kualitas produk kami berjamin dengan jaminan garansi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/home/sale.png">
+                            <h4 class="title mt-3">Potongan Harga</h4>
+                            <p class="text-center">Kami memberikan potongan harga terbaik</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/home/complete.png">
+                            <h4 class="title mt-3">Produk Terlengkap</h4>
+                            <p class="text-center">Produk kami lebih dari 50.000 produk</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-5">
+                    <div class="card">
+                        <div class="card-body mx-auto text-center">
+                            <img class="img-fluid" src="/assets/images/home/express.png">
+                            <h4 class="title mt-3">Pengiriman Tercepat</h4>
+                            <p class="text-center">Dengan one day shipping produk kami akan segera sampai di tangan anda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SCRIPT OWL -->
+    <script>
+    	$(".carousel-limited").owlCarousel({
+            loop: true,
+            margin:10,
+            responsive:{
+                0:{
+                    items:1
+                },
+                1200:{
+                    items:4
+                }
+            }
+          });
+          $(".carousel-new").owlCarousel({
+            loop: true,
+            margin:10,
+            responsive:{
+                0:{
+                    items:1
+                },
+                1200:{
+                    items:4
+                }
+            }
+          });
+          $(".carousel-soon").owlCarousel({
+            loop: true,
+            margin:10,
+            responsive:{
+                0:{
+                    items:1
+                },
+                1200:{
+                    items:4
+                }
+            }
+          });
+          var owll = $('.carousel-limited');
+            owll.owlCarousel();
+            $('.btn-next-limited').click(function() {
+                owll.trigger('next.owl.carousel');
+            })
+            $('.btn-prev-limited').click(function() {
+                owll.trigger('prev.owl.carousel', [300]);
+            });
+            var owlll = $('.carousel-soon');
+            owlll.owlCarousel();
+            $('.btn-next-soon').click(function() {
+                owll.trigger('next.owl.carousel');
+            })
+            $('.btn-prev-soon').click(function() {
+                owlll.trigger('prev.owl.carousel', [300]);
+            });
+            
+            var owl = $('.carousel-new');
+            owl.owlCarousel();
+            $('.btn-next-new').click(function() {
+                owl.trigger('next.owl.carousel');
+            })
+            $('.btn-prev-new').click(function() {
+                owl.trigger('prev.owl.carousel', [300]);
+            });
+
+    </script>
+</body>
+</html>
